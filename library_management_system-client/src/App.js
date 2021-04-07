@@ -27,9 +27,6 @@ function App() {
             <label className="Search">Search</label>
 
           </div> */}
-
-          
-
         </div>
 
     </div>
