@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Topbar from "./topbar";
+import Topbar from "./Components/topbar.js";
 import Sidebar from './Components/Sidebar';
 import {useRoutes } from 'hookrouter';
 import Home from './Pages/home';
@@ -9,7 +9,7 @@ import Search from './Pages/search';
 const routes={
   "/":()=><Home/>,
   '/home':()=><Home/>,
-  "/search":()=><Search/>
+  "/search":()=><Search/> 
 }
 
 function App() {
