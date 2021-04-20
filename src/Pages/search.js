@@ -31,6 +31,8 @@ const Search = () => {
         return newState;
       case "error":
         return Object.assign({}, state, { books: [] });
+      default:
+        return Object.assign({}, state, { books: [] });
     }
   };
 

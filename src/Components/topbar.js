@@ -3,7 +3,7 @@ import './topbar.css'
 const Topbar = ()=> {
     return (
         <div className='Topbar'>
-          <img src='/logo.png'/>
+          <img src='/logo.png' alt="this is logo"/>
         </div>
         
     )
