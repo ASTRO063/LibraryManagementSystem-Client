@@ -3,8 +3,15 @@
     height: 7%;
     text-align: left;
     padding: 5px;
+    display: flex;
+    /* flex-direction: row; */
   }
   .Topbar >img{
   width: 50px;
   height:100%;
+  }
+
+  .Topbar >button{
+    
+    justify-content: space-between;
   }
