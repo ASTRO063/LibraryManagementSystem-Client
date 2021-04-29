@@ -37,8 +37,8 @@ const Search = () => {
   };
 
   const getBookComponents = (books) => {
-    if(books.length > 0) {
-      return books.map(book => <li>{book.title}</li>);
+    if (books.length > 0) {
+      return books.map((book) => <li>{book.title}</li>);
     }
   };
 
@@ -47,7 +47,9 @@ const Search = () => {
   return (
     <div className="Display">
       <SearchBar
-        onRequestSearch={(value) => {serachBooks(value)}}
+        onRequestSearch={(value) => {
+          serachBooks(value);
+        }}
         style={{
           margin: "0 auto",
           maxWidth: 800,
